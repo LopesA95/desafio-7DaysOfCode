@@ -69,3 +69,55 @@ button#signUp {
   
   color: var(--color-white);
 }
+
+header {
+  display: flex;
+  height: 25.4375rem;
+  padding: 6rem 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+header a {
+  color: var(--red-500);
+
+  width: 4.875rem;
+  height: 1.5rem;
+  font-size: var(--font-primary);
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.75rem;
+  letter-spacing: -0.06rem;
+
+  color: var(--gray-900);
+}
+
+.content {
+  display: flex;
+  height: 5.1875rem;
+  width: 49.5rem;
+  padding-top: .75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.content p {
+
+  width: 49.4375rem;
+  height: 3.75rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  text-align: center;
+
+  color: var(--gray-500);
+}
